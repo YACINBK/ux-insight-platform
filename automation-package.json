@@ -1,0 +1,23 @@
+{
+  "name": "ux-analyzer-automation",
+  "version": "1.0.0",
+  "description": "Automation script for Premium Auto Mode UX analysis",
+  "main": "automation_script.js",
+  "scripts": {
+    "start": "node automation_script.js",
+    "analyze": "node automation_script.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "axios": "^1.6.0"
+  },
+  "keywords": [
+    "ux",
+    "analysis",
+    "automation",
+    "puppeteer",
+    "website"
+  ],
+  "author": "UX Beta Team",
+  "license": "MIT"
+} 

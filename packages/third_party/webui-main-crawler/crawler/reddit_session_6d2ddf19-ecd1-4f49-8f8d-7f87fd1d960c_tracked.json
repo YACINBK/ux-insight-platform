@@ -1,0 +1,192 @@
+[
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:35:04.886Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "File a ticket",
+    "elementClasses": "items-center justify-center button button-medium inline-flex px-[var(--rem14)] button-secondary",
+    "bbox": {
+      "x": 349.140625,
+      "y": 476,
+      "width": 101.703125,
+      "height": 40
+    },
+    "url": "https://www.reddit.com/"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:35:06.397Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:35:07.770Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "Cloudflare",
+    "elementClasses": "",
+    "bbox": {
+      "x": 444.265625,
+      "y": 567.390625,
+      "width": 54.453125,
+      "height": 16
+    },
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:35:15.093Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "Cloudflare",
+    "elementClasses": "",
+    "bbox": {
+      "x": 444.265625,
+      "y": 567.390625,
+      "width": 54.453125,
+      "height": 16
+    },
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:35:22.719Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "Cloudflare",
+    "elementClasses": "",
+    "bbox": {
+      "x": 444.265625,
+      "y": 567.390625,
+      "width": 54.453125,
+      "height": 16
+    },
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:35:29.932Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "Cloudflare",
+    "elementClasses": "",
+    "bbox": {
+      "x": 444.265625,
+      "y": 567.390625,
+      "width": 54.453125,
+      "height": 16
+    },
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:35:36.491Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "Cloudflare",
+    "elementClasses": "",
+    "bbox": {
+      "x": 444.265625,
+      "y": 567.390625,
+      "width": 54.453125,
+      "height": 16
+    },
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:35:43.098Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "Cloudflare",
+    "elementClasses": "",
+    "bbox": {
+      "x": 444.265625,
+      "y": 567.390625,
+      "width": 54.453125,
+      "height": 16
+    },
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:35:51.109Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "Cloudflare",
+    "elementClasses": "",
+    "bbox": {
+      "x": 444.265625,
+      "y": 567.390625,
+      "width": 54.453125,
+      "height": 16
+    },
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:35:57.562Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "Cloudflare",
+    "elementClasses": "",
+    "bbox": {
+      "x": 444.265625,
+      "y": 567.390625,
+      "width": 54.453125,
+      "height": 16
+    },
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:36:05.214Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "Cloudflare",
+    "elementClasses": "",
+    "bbox": {
+      "x": 444.265625,
+      "y": 567.390625,
+      "width": 54.453125,
+      "height": 16
+    },
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:36:13.234Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "Cloudflare",
+    "elementClasses": "",
+    "bbox": {
+      "x": 444.265625,
+      "y": 567.390625,
+      "width": 54.453125,
+      "height": 16
+    },
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  },
+  {
+    "sessionId": "6d2ddf19-ecd1-4f49-8f8d-7f87fd1d960c",
+    "timestamp": "2025-07-29T12:36:19.413Z",
+    "eventType": "click",
+    "elementType": "link",
+    "elementText": "Cloudflare",
+    "elementClasses": "",
+    "bbox": {
+      "x": 444.265625,
+      "y": 567.390625,
+      "width": 54.453125,
+      "height": 16
+    },
+    "url": "https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=21879292693140"
+  }
+]

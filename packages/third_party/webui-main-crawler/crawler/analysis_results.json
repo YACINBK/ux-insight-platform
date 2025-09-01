@@ -1,0 +1,258 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+  "timestamp": "2025-07-31T12:07:16.006Z",
+  "screenshots": [
+    "C:\\Users\\YACIN\\Desktop\\beta_ux_project\\webui-main\\crawler\\screenshots\\viewport_0.png",
+    "C:\\Users\\YACIN\\Desktop\\beta_ux_project\\webui-main\\crawler\\screenshots\\viewport_1.png",
+    "C:\\Users\\YACIN\\Desktop\\beta_ux_project\\webui-main\\crawler\\screenshots\\viewport_2.png",
+    "C:\\Users\\YACIN\\Desktop\\beta_ux_project\\webui-main\\crawler\\screenshots\\viewport_3.png",
+    "C:\\Users\\YACIN\\Desktop\\beta_ux_project\\webui-main\\crawler\\screenshots\\viewport_4.png",
+    "C:\\Users\\YACIN\\Desktop\\beta_ux_project\\webui-main\\crawler\\screenshots\\viewport_5.png",
+    "C:\\Users\\YACIN\\Desktop\\beta_ux_project\\webui-main\\crawler\\screenshots\\viewport_6.png",
+    "C:\\Users\\YACIN\\Desktop\\beta_ux_project\\webui-main\\crawler\\screenshots\\viewport_7.png",
+    "C:\\Users\\YACIN\\Desktop\\beta_ux_project\\webui-main\\crawler\\screenshots\\viewport_8.png",
+    "C:\\Users\\YACIN\\Desktop\\beta_ux_project\\webui-main\\crawler\\screenshots\\viewport_9.png",
+    "C:\\Users\\YACIN\\Desktop\\beta_ux_project\\webui-main\\crawler\\screenshots\\viewport_10.png"
+  ],
+  "metrics": {},
+  "recommendations": [],
+  "analysis_id": "auto_1753963636382_x6jr7nwoa",
+  "tracked_events": [
+    {
+      "timestamp": "2025-07-31T12:07:29.771Z",
+      "eventType": "click",
+      "elementType": "div",
+      "elementText": "Goals",
+      "elementClasses": "vector-toc-text",
+      "bbox": {
+        "x": 60,
+        "y": 200.40625,
+        "width": 180,
+        "height": 28
+      },
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    },
+    {
+      "timestamp": "2025-07-31T12:07:29.783Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:07:29.793Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:07:29.973Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:07:40.964Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:07:49.089Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:07:49.201Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:07:57.644Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:07:57.742Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:05.960Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:06.062Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:13.967Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:14.058Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:22.467Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:22.560Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:30.877Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:30.990Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:39.093Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:39.187Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:47.650Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:47.754Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:55.969Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:08:56.087Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:09:04.453Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    },
+    {
+      "timestamp": "2025-07-31T12:09:04.575Z",
+      "eventType": "scroll",
+      "elementType": "body",
+      "elementText": "",
+      "elementClasses": "",
+      "bbox": null,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Goals"
+    }
+  ],
+  "last_updated": "2025-07-31T12:09:04.575Z",
+  "progress": {
+    "screenshots_count": 11,
+    "events_count": 25,
+    "is_complete": false
+  }
+}

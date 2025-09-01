@@ -1,0 +1,205 @@
+<div class="dashboard-container">
+  <!-- Header -->
+  <mat-toolbar class="dashboard-header">
+    <mat-icon class="header-icon">dashboard</mat-icon>
+    <span class="header-title">UI/UX Tracking Dashboard</span>
+    <span class="spacer"></span>
+    
+    <!-- Mode Toggle Buttons -->
+    <div class="mode-toggle">
+      <button mat-raised-button 
+              [class.active]="currentMode === 'manual'"
+              (click)="switchToManualMode()"
+              class="toggle-btn manual-btn">
+        <mat-icon>settings</mat-icon>
+        Manual Mode
+      </button>
+      <button mat-raised-button 
+              [class.active]="currentMode === 'premium'"
+              (click)="switchToPremiumMode()"
+              class="toggle-btn premium-btn">
+        <mat-icon>auto_awesome</mat-icon>
+        Premium Auto
+      </button>
+    </div>
+    
+    <mat-icon class="header-icon">account_circle</mat-icon>
+  </mat-toolbar>
+
+  <div class="dashboard-content">
+    <!-- Stats Cards and Recent Questions Row -->
+    <div class="stats-grid">
+      <mat-card class="stat-card">
+        <mat-card-content>
+          <div class="stat-content">
+            <mat-icon class="stat-icon questions">help_outline</mat-icon>
+            <div class="stat-info">
+              <h3>{{ totalQuestions }}</h3>
+              <p>Total Questions</p>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="stat-card">
+        <mat-card-content>
+          <div class="stat-content">
+            <mat-icon class="stat-icon attachments">attach_file</mat-icon>
+            <div class="stat-info">
+              <h3>{{ totalAttachments }}</h3>
+              <p>Attachments</p>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+
+      <!-- Recent Questions Section (on same line as stats) -->
+      <div class="recent-section" 
+           (mouseenter)="showRecentPanel = true" 
+           (mouseleave)="showRecentPanel = false">
+        <mat-card class="recent-trigger">
+          <mat-card-content>
+            <mat-icon>history</mat-icon>
+            <span>Recent</span>
+          </mat-card-content>
+        </mat-card>
+        
+        <mat-card class="recent-panel" 
+                  [class.show]="showRecentPanel"
+                  *ngIf="showRecentPanel">
+          <mat-card-header>
+            <mat-card-title>
+              <mat-icon>history</mat-icon>
+              Recent Analysis Requests
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="recent-questions" *ngIf="recentQuestions.length > 0; else noQuestions">
+              <div class="question-item" *ngFor="let question of recentQuestions">
+                <div class="question-content">
+                  <h4>{{ question.title }}</h4>
+                  <div class="question-meta">
+                    <span class="date">{{ question.createdAt | date:'short' }}</span>
+                    <span class="attachments" *ngIf="question.attachments && question.attachments.length > 0">
+                      {{ question.attachments.length }} attachments
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ng-template #noQuestions>
+              <div class="no-questions">
+                <mat-icon>inbox</mat-icon>
+                <p>No analysis requests submitted yet</p>
+              </div>
+            </ng-template>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+
+    <!-- Main Content Grid -->
+    <div class="main-grid">
+      <!-- Manual Mode Content -->
+      <div *ngIf="currentMode === 'manual'" class="manual-mode-content">
+        <!-- Question Form Section (Left) -->
+        <mat-card class="form-card">
+          <mat-card-header>
+            <mat-card-title>
+              <mat-icon>question_answer</mat-icon>
+              UX Analysis Request
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <app-question-form 
+              (questionSubmitted)="onQuestionSubmitted()"
+              (analysisStarted)="onAnalysisStarted()"
+              (llmResponse)="onLLMResponse($event)">
+            </app-question-form>
+          </mat-card-content>
+        </mat-card>
+      </div>
+
+      <!-- Premium Auto Mode Content -->
+      <div *ngIf="currentMode === 'premium'" class="premium-mode-content">
+        <mat-card class="form-card">
+          <mat-card-header>
+            <mat-card-title>
+              <mat-icon>auto_awesome</mat-icon>
+              Premium Auto Analysis
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="auto-mode-form">
+              <div class="url-input-section">
+                <mat-form-field appearance="outline" class="url-field">
+                  <mat-label>Enter Website URL</mat-label>
+                  <input matInput 
+                         [(ngModel)]="urlInput" 
+                         placeholder="https://example.com"
+                         [disabled]="isAutoModeLoading">
+                  <mat-icon matSuffix>language</mat-icon>
+                </mat-form-field>
+                
+                <button mat-raised-button 
+                        color="primary" 
+                        (click)="startAutoAnalysis()"
+                        [disabled]="isAutoModeLoading || !urlInput.trim()"
+                        class="start-analysis-btn">
+                  <mat-icon *ngIf="!isAutoModeLoading">play_arrow</mat-icon>
+                  <mat-spinner *ngIf="isAutoModeLoading" diameter="20"></mat-spinner>
+                  {{ isAutoModeLoading ? 'Analyzing...' : 'Start Analysis' }}
+                </button>
+              </div>
+
+              <!-- Error Message -->
+              <div *ngIf="autoModeError" class="error-message">
+                <mat-icon>error</mat-icon>
+                <span>{{ autoModeError }}</span>
+              </div>
+
+              <!-- Info Section -->
+              <div class="info-section">
+                <mat-card class="info-card">
+                  <mat-card-content>
+                    <h4>
+                      <mat-icon>info</mat-icon>
+                      How Premium Auto Works
+                    </h4>
+                    <ul>
+                      <li>Enter your website URL above</li>
+                      <li>Our system will analyze your site automatically</li>
+                      <li>Get instant UX insights and recommendations</li>
+                      <li>Demo mode shows sample results for now</li>
+                    </ul>
+                    <div class="demo-note">
+                      <strong>Note:</strong> This is currently in demo mode. Real implementation requires adding our tracking script to your website and collecting user data over time.
+                    </div>
+                  </mat-card-content>
+                </mat-card>
+              </div>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+
+      <!-- Chat Conversation Section (Center) -->
+      <div class="chat-section">
+        <mat-card class="chat-card">
+          <mat-card-header>
+            <mat-card-title>
+              <mat-icon>chat</mat-icon>
+              Analysis Conversation
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <app-chat-conversation 
+              [chatHistory]="chatHistory" 
+              [isLoading]="isLoading || isAutoModeLoading">
+            </app-chat-conversation>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>

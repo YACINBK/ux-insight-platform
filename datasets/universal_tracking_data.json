@@ -1,0 +1,395 @@
+[
+  {
+    "sessionId": 1,
+    "sectionId": "content-item-0",
+    "title": "Inspiring Story | Entertainment",
+    "textSnippet": "Heartwarming story about family values and positive moments",
+    "links": [
+      "https://example.com/story/inspiring-family",
+      "https://example.com/entertainment",
+      "https://example.com/entertainment",
+      "https://example.com/story/inspiring-family"
+    ],
+    "interactionCount": "3",
+    "timestamp": "2025-01-15T10:05:42.761Z",
+    "interactionType": "click",
+    "timeSpent": 45,
+    "scrollDepth": 0.2
+  },
+  {
+    "sessionId": 1,
+    "sectionId": "content-item-1",
+    "title": "Tech Company Welcome Sign | Photography",
+    "textSnippet": "Corporate welcome sign at major tech company headquarters",
+    "links": [
+      "https://example.com/photos/tech-welcome-sign",
+      "https://example.com/photography",
+      "https://example.com/photography",
+      "https://example.com/photos/tech-welcome-sign"
+    ],
+    "interactionCount": "1",
+    "timestamp": "2025-01-15T10:06:15.762Z",
+    "interactionType": "hover",
+    "timeSpent": 12,
+    "scrollDepth": 0.3
+  },
+  {
+    "sessionId": 1,
+    "sectionId": "content-item-2",
+    "title": "Political News Update | News",
+    "textSnippet": "Major legislative bill passes through government with close vote margin",
+    "links": [
+      "https://example.com/news/political-update",
+      "https://example.com/news",
+      "https://example.com/news",
+      "https://example.com/news/political-update"
+    ],
+    "interactionCount": "0",
+    "timestamp": "2025-01-15T10:07:02.762Z",
+    "interactionType": "scroll",
+    "timeSpent": 8,
+    "scrollDepth": 0.5
+  },
+  {
+    "sessionId": 1,
+    "sectionId": "content-item-3",
+    "title": "Interesting Chemical Reaction | Science",
+    "textSnippet": "Unusual chemical reaction between common office supplies",
+    "links": [
+      "https://example.com/science/chemical-reaction",
+      "https://example.com/science",
+      "https://example.com/science",
+      "https://example.com/science/chemical-reaction"
+    ],
+    "interactionCount": "5",
+    "timestamp": "2025-01-15T10:08:30.762Z",
+    "interactionType": "click",
+    "timeSpent": 120,
+    "scrollDepth": 0.8
+  },
+  {
+    "sessionId": 1,
+    "sectionId": "comment-section",
+    "title": "Magic eraser melted plastic | r/mildlyinteresting",
+    "textSnippet": "That's actually pretty cool! I wonder what chemical reaction caused that...",
+    "links": [],
+    "interactionCount": "2",
+    "timestamp": "2025-01-15T10:10:45.762Z",
+    "interactionType": "upvote",
+    "timeSpent": 25,
+    "scrollDepth": 0.9
+  },
+  {
+    "sessionId": 2,
+    "sectionId": "post-list-item-0",
+    "title": "Women what makes a man unattractive | r/AskReddit",
+    "textSnippet": "Women what makes a man instantly unattractive to you? | r/AskReddit | •",
+    "links": [
+      "https://www.reddit.com/r/AskReddit/comments/1lp2vu4/women_what_makes_a_man_instantly_unattractive_to/",
+      "https://www.reddit.com/r/AskReddit/",
+      "https://www.reddit.com/r/AskReddit/",
+      "https://www.reddit.com/r/AskReddit/comments/1lp2vu4/women_what_makes_a_man_instantly_unattractive_to/"
+    ],
+    "interactionCount": "8",
+    "timestamp": "2025-01-15T14:20:06.488Z",
+    "interactionType": "click",
+    "timeSpent": 300,
+    "scrollDepth": 0.95
+  },
+  {
+    "sessionId": 2,
+    "sectionId": "comment-section",
+    "title": "Women what makes a man unattractive | r/AskReddit",
+    "textSnippet": "Lack of emotional intelligence and poor communication skills are major turn-offs for me.",
+    "links": [],
+    "interactionCount": "1",
+    "timestamp": "2025-01-15T14:25:15.488Z",
+    "interactionType": "upvote",
+    "timeSpent": 15,
+    "scrollDepth": 0.95
+  },
+  {
+    "sessionId": 2,
+    "sectionId": "comment-section",
+    "title": "Women what makes a man unattractive | r/AskReddit",
+    "textSnippet": "When they don't respect boundaries and try to push their agenda...",
+    "links": [],
+    "interactionCount": "3",
+    "timestamp": "2025-01-15T14:26:30.489Z",
+    "interactionType": "upvote",
+    "timeSpent": 20,
+    "scrollDepth": 0.95
+  },
+  {
+    "sessionId": 2,
+    "sectionId": "post-list-item-1",
+    "title": "Republican Senator tells House not to vote | r/nottheonion",
+    "textSnippet": "Republican Senator Tells House Not To Vote For Bill She Just Voted For | r/nottheonion | •",
+    "links": [
+      "https://www.reddit.com/r/nottheonion/comments/1lpdvek/republican_senator_tells_house_not_to_vote_for/",
+      "https://www.reddit.com/r/nottheonion/",
+      "https://www.reddit.com/r/nottheonion/",
+      "https://www.reddit.com/r/nottheonion/comments/1lpdvek/republican_senator_tells_house_not_to_vote_for/"
+    ],
+    "interactionCount": "2",
+    "timestamp": "2025-01-15T14:30:45.489Z",
+    "interactionType": "click",
+    "timeSpent": 180,
+    "scrollDepth": 0.7
+  },
+  {
+    "sessionId": 2,
+    "sectionId": "search-bar",
+    "title": "Search Reddit",
+    "textSnippet": "UX design tips",
+    "links": [],
+    "interactionCount": "1",
+    "timestamp": "2025-01-15T14:35:20.489Z",
+    "interactionType": "search",
+    "timeSpent": 45,
+    "scrollDepth": 0.0
+  },
+  {
+    "sessionId": 3,
+    "sectionId": "post-list-item-0",
+    "title": "DND watch giveaway | r/DnD",
+    "textSnippet": "[OC] GIVEAWAY: Every color of that DND watch you maybe saw here one time | r/DnD | •",
+    "links": [
+      "https://www.reddit.com/r/DnD/comments/1lp0si5/oc_giveaway_every_color_of_that_dnd_watch_you/",
+      "https://www.reddit.com/r/DnD/",
+      "https://www.reddit.com/r/DnD/",
+      "https://www.reddit.com/r/DnD/comments/1lp0si5/oc_giveaway_every_color_of_that_dnd_watch_you/"
+    ],
+    "interactionCount": "12",
+    "timestamp": "2025-01-15T19:15:06.489Z",
+    "interactionType": "click",
+    "timeSpent": 420,
+    "scrollDepth": 0.98
+  },
+  {
+    "sessionId": 3,
+    "sectionId": "comment-section",
+    "title": "DND watch giveaway | r/DnD",
+    "textSnippet": "This is amazing! I've been looking for something like this for my campaign.",
+    "links": [],
+    "interactionCount": "1",
+    "timestamp": "2025-01-15T19:22:30.489Z",
+    "interactionType": "upvote",
+    "timeSpent": 30,
+    "scrollDepth": 0.98
+  },
+  {
+    "sessionId": 3,
+    "sectionId": "comment-section",
+    "title": "DND watch giveaway | r/DnD",
+    "textSnippet": "How do I enter? The link isn't working for me...",
+    "links": [],
+    "interactionCount": "0",
+    "timestamp": "2025-01-15T19:23:15.489Z",
+    "interactionType": "scroll",
+    "timeSpent": 15,
+    "scrollDepth": 0.98
+  },
+  {
+    "sessionId": 3,
+    "sectionId": "post-list-item-1",
+    "title": "Bucks waiving Damian Lillard | r/nba",
+    "textSnippet": "[Charania] Just in: The Milwaukee Bucks are waiving Damian Lillard... | r/nba | •",
+    "links": [
+      "https://www.reddit.com/r/nba/comments/1lp4cko/charania_just_in_the_milwaukee_bucks_are_waiving/",
+      "https://www.reddit.com/r/nba/",
+      "https://www.reddit.com/r/nba/",
+      "https://www.reddit.com/r/nba/comments/1lp4cko/charania_just_in_the_milwaukee_bucks_are_waiving/"
+    ],
+    "interactionCount": "6",
+    "timestamp": "2025-01-15T19:28:45.489Z",
+    "interactionType": "click",
+    "timeSpent": 240,
+    "scrollDepth": 0.85
+  },
+  {
+    "sessionId": 3,
+    "sectionId": "comment-section",
+    "title": "Bucks waiving Damian Lillard | r/nba",
+    "textSnippet": "This is a terrible move for the Bucks. Lillard was their best chance at a championship.",
+    "links": [],
+    "interactionCount": "4",
+    "timestamp": "2025-01-15T19:32:20.489Z",
+    "interactionType": "upvote",
+    "timeSpent": 25,
+    "scrollDepth": 0.85
+  },
+  {
+    "sessionId": 3,
+    "sectionId": "comment-section",
+    "title": "Bucks waiving Damian Lillard | r/nba",
+    "textSnippet": "Injuries really derailed his time there. Hope he can recover and find success elsewhere.",
+    "links": [],
+    "interactionCount": "2",
+    "timestamp": "2025-01-15T19:33:10.489Z",
+    "interactionType": "upvote",
+    "timeSpent": 20,
+    "scrollDepth": 0.85
+  },
+  {
+    "sessionId": 3,
+    "sectionId": "save-button",
+    "title": "Save Post",
+    "textSnippet": "",
+    "links": [],
+    "interactionCount": "1",
+    "timestamp": "2025-01-15T19:35:00.489Z",
+    "interactionType": "save",
+    "timeSpent": 5,
+    "scrollDepth": 0.85
+  },
+  {
+    "sessionId": 4,
+    "sectionId": "post-list-item-0",
+    "title": "Just realized how strong men are | r/self",
+    "textSnippet": "Just realized how strong men really are today | r/self | •",
+    "links": [
+      "https://www.reddit.com/r/self/comments/1lp1lx1/just_realized_how_strong_men_really_are_today/",
+      "https://www.reddit.com/r/self/",
+      "https://www.reddit.com/r/self/",
+      "https://www.reddit.com/r/self/comments/1lp1lx1/just_realized_how_strong_men_really_are_today/"
+    ],
+    "interactionCount": "0",
+    "timestamp": "2025-01-16T08:45:06.489Z",
+    "interactionType": "scroll",
+    "timeSpent": 8,
+    "scrollDepth": 0.15
+  },
+  {
+    "sessionId": 4,
+    "sectionId": "post-list-item-1",
+    "title": "Trump calls for deporting US citizens | r/Fauxmoi",
+    "textSnippet": "Trump calls for deporting US citizens: \"We also have a lot of bad people...\" | r/Fauxmoi | •",
+    "links": [
+      "https://www.reddit.com/r/Fauxmoi/comments/1lp6pye/trump_calls_for_deporting_us_citizens_we_also/",
+      "https://www.reddit.com/r/Fauxmoi/",
+      "https://www.reddit.com/r/Fauxmoi/",
+      "https://www.reddit.com/r/Fauxmoi/comments/1lp6pye/trump_calls_for_deporting_us_citizens_we_also/"
+    ],
+    "interactionCount": "0",
+    "timestamp": "2025-01-16T08:46:15.489Z",
+    "interactionType": "scroll",
+    "timeSpent": 5,
+    "scrollDepth": 0.25
+  },
+  {
+    "sessionId": 4,
+    "sectionId": "post-list-item-2",
+    "title": "Concentration Camp | r/BlueskySkeets",
+    "textSnippet": "Concentration Camp! | r/BlueskySkeets | •",
+    "links": [
+      "https://www.reddit.com/r/BlueskySkeets/comments/1lp2ubm/concentration_camp/",
+      "https://www.reddit.com/r/BlueskySkeets/",
+      "https://www.reddit.com/r/BlueskySkeets/",
+      "https://www.reddit.com/r/BlueskySkeets/comments/1lp2ubm/concentration_camp/"
+    ],
+    "interactionCount": "0",
+    "timestamp": "2025-01-16T08:47:30.489Z",
+    "interactionType": "scroll",
+    "timeSpent": 3,
+    "scrollDepth": 0.35
+  },
+  {
+    "sessionId": 4,
+    "sectionId": "exit-intent",
+    "title": "Exit Intent",
+    "textSnippet": "",
+    "links": [],
+    "interactionCount": "0",
+    "timestamp": "2025-01-16T08:48:00.489Z",
+    "interactionType": "exit",
+    "timeSpent": 0,
+    "scrollDepth": 0.35
+  },
+  {
+    "sessionId": 5,
+    "sectionId": "post-list-item-0",
+    "title": "W dad | r/MadeMeSmile",
+    "textSnippet": "W dad | r/MadeMeSmile | •",
+    "links": [
+      "https://www.reddit.com/r/MadeMeSmile/comments/1lpa99j/w_dad/",
+      "https://www.reddit.com/r/MadeMeSmile/",
+      "https://www.reddit.com/r/MadeMeSmile/",
+      "https://www.reddit.com/r/MadeMeSmile/comments/1lpa99j/w_dad/"
+    ],
+    "interactionCount": "7",
+    "timestamp": "2025-01-16T12:30:49.372Z",
+    "interactionType": "click",
+    "timeSpent": 180,
+    "scrollDepth": 0.6
+  },
+  {
+    "sessionId": 5,
+    "sectionId": "comment-section",
+    "title": "W dad | r/MadeMeSmile",
+    "textSnippet": "This is exactly the kind of dad I want to be someday.",
+    "links": [],
+    "interactionCount": "1",
+    "timestamp": "2025-01-16T12:33:45.372Z",
+    "interactionType": "upvote",
+    "timeSpent": 20,
+    "scrollDepth": 0.6
+  },
+  {
+    "sessionId": 5,
+    "sectionId": "share-button",
+    "title": "Share Post",
+    "textSnippet": "",
+    "links": [],
+    "interactionCount": "1",
+    "timestamp": "2025-01-16T12:35:20.372Z",
+    "interactionType": "share",
+    "timeSpent": 15,
+    "scrollDepth": 0.6
+  },
+  {
+    "sessionId": 5,
+    "sectionId": "right-rail-experience-root",
+    "title": "Popular Communities",
+    "textSnippet": "Popular Communities | r/explainlikeimfive | 23,257,293 members",
+    "links": [
+      "https://www.reddit.com/r/explainlikeimfive",
+      "https://www.reddit.com/r/IAmA",
+      "https://www.reddit.com/r/classicwow",
+      "https://www.reddit.com/r/Instagram",
+      "https://www.reddit.com/r/NintendoSwitch",
+      "https://www.reddit.com/r/Tinder",
+      "https://www.reddit.com/r/todayilearned",
+      "https://www.reddit.com/r/iphone",
+      "https://www.reddit.com/r/ffxiv",
+      "https://www.reddit.com/r/nfl",
+      "https://www.reddit.com/r/Showerthoughts",
+      "https://www.reddit.com/r/Music",
+      "https://www.reddit.com/r/FORTnITE",
+      "https://www.reddit.com/r/DotA2",
+      "https://www.reddit.com/r/SquaredCircle",
+      "https://www.reddit.com/r/keto",
+      "https://www.reddit.com/r/Frugal",
+      "https://www.reddit.com/r/Overwatch",
+      "https://www.reddit.com/r/piercing",
+      "https://www.reddit.com/r/worldnews"
+    ],
+    "interactionCount": "3",
+    "timestamp": "2025-01-16T12:37:10.372Z",
+    "interactionType": "click",
+    "timeSpent": 45,
+    "scrollDepth": 0.6
+  },
+  {
+    "sessionId": 5,
+    "sectionId": "right-rail-entity-panel-root",
+    "title": "Community Info",
+    "textSnippet": "",
+    "links": [],
+    "interactionCount": "0",
+    "timestamp": "2025-01-16T12:37:55.373Z",
+    "interactionType": "hover",
+    "timeSpent": 10,
+    "scrollDepth": 0.6
+  }
+] 

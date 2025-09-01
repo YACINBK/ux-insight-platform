@@ -1,0 +1,182 @@
+[
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:15:56.467Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:15:57.851Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "\n      Show more\n    ",
+    "elementClasses": "px-xs mb-[4px]",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:15:57.864Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:15:57.867Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:15:59.395Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:15:59.402Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:15:59.693Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "Expand user menu",
+    "elementClasses": " max-w-[40px]\nbutton-medium px-[var(--rem8)]\nbutton-plain\n\n\nicon\nitems-center justify-center\nbutton inline-flex ",
+    "bbox": {
+      "x": 1144,
+      "y": 7.5,
+      "width": 40,
+      "height": 40
+    },
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:16:01.487Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "\n      Show more\n    ",
+    "elementClasses": "px-xs mb-[4px]",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:16:01.499Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:16:01.520Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:16:01.529Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:16:02.808Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "\n      Show more\n    ",
+    "elementClasses": "px-xs mb-[4px]",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:16:02.821Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/explore/"
+  },
+  {
+    "sessionId": "544303ff-d674-4640-93ce-297a1d16bb24",
+    "timestamp": "2025-07-30T12:16:02.823Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/explore/"
+  }
+]

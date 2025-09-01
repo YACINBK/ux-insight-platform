@@ -1,0 +1,26 @@
+<div class="chat-container">
+  <div id="chat-history" class="chat-history">
+    <ng-container *ngFor="let msg of chatHistory">
+      <div [ngClass]="{'chat-row': true, 'user': msg.isUser, 'llm': !msg.isUser}">
+        <mat-card class="chat-bubble">
+          <div class="chat-header">
+            <mat-icon *ngIf="msg.isUser">person</mat-icon>
+            <mat-icon *ngIf="!msg.isUser">smart_toy</mat-icon>
+            <span class="chat-author">{{ msg.isUser ? 'You' : 'UX LLM' }}</span>
+          </div>
+          <div class="chat-message">{{ msg.message }}</div>
+        </mat-card>
+      </div>
+    </ng-container>
+    <div *ngIf="isLoading" class="chat-row llm">
+      <mat-card class="chat-bubble loading-bubble">
+        <mat-icon>smart_toy</mat-icon>
+        <span class="chat-author">UX LLM</span>
+        <div class="loading-indicator">
+          <mat-progress-spinner diameter="24" mode="indeterminate"></mat-progress-spinner>
+          <span>Generating response...</span>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+</div> 

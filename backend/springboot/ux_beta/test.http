@@ -1,0 +1,8 @@
+POST http://localhost:8080/api/llm/query
+Content-Type: application/json
+
+{
+  "question": "What are common UX rules?",
+  "num_results": 3,
+  "include_metadata": false
+}

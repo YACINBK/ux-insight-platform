@@ -1,0 +1,55 @@
+version: "3.9"
+
+services:
+  springboot:
+    build:
+      context: ../../backend/springboot
+    environment:
+      - APP_LLM_BASE_URL=http://llm-api:8000
+      - APP_VISION_BASE_URL=http://vision-api:8001
+      - APP_CORS_ALLOWED_ORIGINS=
+    ports:
+      - ":8080"
+    depends_on:
+      - llm-api
+      - vision-api
+
+  llm-api:
+    build:
+      context: ../../backend/fastapi_llm
+    environment:
+      - LLM_PROVIDER=
+      - OPENAI_API_KEY=
+      - MISTRAL_API_KEY=
+      - DEEPSEEK_API_KEY=
+      - OPENROUTER_API_KEY=
+      - OLLAMA_ENDPOINT=
+      - OLLAMA_MODEL=
+      - DATA_DIR=/data
+    volumes:
+      - data-volume:/data
+    expose:
+      - "8000"
+
+  vision-api:
+    build:
+      context: ../../backend/fastapi_vision
+    environment:
+      - DATA_DIR=/data
+    volumes:
+      - data-volume:/data
+    expose:
+      - "8001"
+
+  frontend:
+    build:
+      context: ../../backend/frontend
+    environment:
+      - API_BASE_URL=http://springboot:8080/api
+    ports:
+      - "80:80"
+    depends_on:
+      - springboot
+
+volumes:
+  data-volume:

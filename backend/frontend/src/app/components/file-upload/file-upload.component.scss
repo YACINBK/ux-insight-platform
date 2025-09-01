@@ -1,0 +1,113 @@
+.file-upload-container {
+  .upload-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+
+    .upload-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+      }
+
+      mat-icon {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    &:hover, &.drag-over {
+      border-color: #667eea;
+      background-color: rgba(102, 126, 234, 0.05);
+      transform: scale(1.02);
+    }
+
+    .drop-content {
+      .drop-icon {
+        font-size: 3rem;
+        width: 3rem;
+        height: 3rem;
+        color: #667eea;
+        margin-bottom: 1rem;
+      }
+
+      h3 {
+        margin: 0 0 0.5rem 0;
+        color: #333;
+        font-weight: 600;
+      }
+
+      p {
+        margin: 0 0 1rem 0;
+        color: #666;
+        font-size: 0.9rem;
+      }
+
+      .supported-formats {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .format-chip {
+          background-color: #e3f2fd;
+          color: #1976d2;
+          padding: 0.25rem 0.75rem;
+          border-radius: 16px;
+          font-size: 0.8rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .file-upload-container {
+    .upload-buttons {
+      flex-direction: column;
+
+      .upload-btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+
+    .drop-zone {
+      padding: 1.5rem;
+
+      .drop-content {
+        .drop-icon {
+          font-size: 2.5rem;
+          width: 2.5rem;
+          height: 2.5rem;
+        }
+
+        .supported-formats {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

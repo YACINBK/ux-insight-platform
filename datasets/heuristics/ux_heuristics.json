@@ -1,0 +1,67 @@
+[
+  {
+    "id": "h1",
+    "text": "The system should always keep users informed about what is going on through appropriate feedback in a reasonable time.",
+    "source": "Nielsen’s Heuristic 1"
+  },
+  {
+    "id": "h2",
+    "text": "Match between system and the real world: use familiar language and real-world conventions.",
+    "source": "Nielsen’s Heuristic 2"
+  },
+  {
+    "id": "h3",
+    "text": "Users should have clearly marked 'undo' and 'redo' options to recover from mistakes.",
+    "source": "Nielsen’s Heuristic 3"
+  },
+  {
+    "id": "h4",
+    "text": "Consistency and standards: the same words and actions should mean the same thing across the interface.",
+    "source": "Nielsen’s Heuristic 4"
+  },
+  {
+    "id": "h5",
+    "text": "Error messages should be expressed in plain language, precisely indicate the problem, and suggest constructive solutions.",
+    "source": "Nielsen’s Heuristic 9"
+  },
+  {
+    "id": "h6",
+    "text": "Strive for aesthetic and minimalist design: avoid adding elements that are irrelevant or rarely needed.",
+    "source": "Nielsen’s Heuristic 8"
+  },
+  {
+    "id": "h7",
+    "text": "Make lists scannable by using supporting visuals, clear text, and metadata to guide users efficiently.",
+    "source": "List UI best practices"
+  },
+  {
+    "id": "h8",
+    "text": "In list design use single, two-line, or three-line grouped text, with consistent spacing and alignment.",
+    "source": "List UI best practices"
+  },
+  {
+    "id": "h9",
+    "text": "Ensure list items are actionable and consistent to support efficient scanning and interaction.",
+    "source": "List UI best practices"
+  },
+  {
+    "id": "h10",
+    "text": "Accessibility heuristics: design for color-blind users and ensure sufficient color contrast.",
+    "source": "Accessibility best practices"
+  },
+  {
+    "id": "h11",
+    "text": "Shift left accessibility: plan and test for accessibility early in the design phase.",
+    "source": "Accessibility best practices"
+  },
+  {
+    "id": "h12",
+    "text": "Design lists with clear dividers, visual hierarchy, and appropriately sized touch targets.",
+    "source": "List UI design template"
+  },
+  {
+    "id": "h13",
+    "text": "Loading indicators and status messages help users understand that action is in progress.",
+    "source": "Heuristic 1 elaboration"
+  }
+] 

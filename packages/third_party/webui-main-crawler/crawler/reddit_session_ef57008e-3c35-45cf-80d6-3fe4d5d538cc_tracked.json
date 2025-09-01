@@ -1,0 +1,477 @@
+[
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:41.733Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:41.745Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:41.898Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "Expand user menu",
+    "elementClasses": " min-w-[40px]\nbutton-medium px-[var(--rem8)]\nbutton-plain\n\n\nicon\nitems-center justify-center\nbutton inline-flex ",
+    "bbox": {
+      "x": 744,
+      "y": 8,
+      "width": 40,
+      "height": 40
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:45.039Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "Create Post",
+    "elementClasses": "no-underline hover:no-underline active:no-underline whitespace-normal h-auto min-h-[38px] xs:h-[38px] xs:leading-[38px] leading-3 xs:whitespace-nowrap min-w-4xl\nbutton-medium pl-[var(--rem10)] pr-[var(--rem14)]\nbutton-bordered\n\n\n\nitems-center justify-center\nbutton inline-flex ",
+    "bbox": {
+      "x": 578.3125,
+      "y": -227,
+      "width": 125.9375,
+      "height": 38
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:45.053Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:45.060Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:47.711Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": " Sign in with Apple",
+    "elementClasses": "",
+    "bbox": {
+      "x": 217,
+      "y": 205,
+      "width": 366,
+      "height": 64
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:47.725Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:47.728Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:50.655Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": " Sign in with Apple",
+    "elementClasses": "",
+    "bbox": {
+      "x": 217,
+      "y": 205,
+      "width": 366,
+      "height": 64
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:50.674Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:50.684Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:53.795Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": " Sign in with Apple",
+    "elementClasses": "",
+    "bbox": {
+      "x": 217,
+      "y": 205,
+      "width": 366,
+      "height": 64
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:53.817Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:53.827Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:56.377Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "close",
+    "elementClasses": "z-10 relative\nbutton-small px-[var(--rem6)]\nbutton-secondary\n\n\nicon\nitems-center justify-center\nbutton inline-flex ",
+    "bbox": {
+      "x": 608,
+      "y": 24,
+      "width": 32,
+      "height": 32
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:56.487Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:56.491Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:57.896Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:57.911Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:45:58.112Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "Open menu",
+    "elementClasses": "m:hidden\nbutton-medium px-[var(--rem8)]\nbutton-plain\n\n\nicon\nitems-center justify-center\nbutton inline-flex ",
+    "bbox": {
+      "x": 16,
+      "y": 8,
+      "width": 40,
+      "height": 40
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:01.064Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "Create Post",
+    "elementClasses": "no-underline hover:no-underline active:no-underline whitespace-normal h-auto min-h-[38px] xs:h-[38px] xs:leading-[38px] leading-3 xs:whitespace-nowrap min-w-4xl\nbutton-medium pl-[var(--rem10)] pr-[var(--rem14)]\nbutton-bordered\n\n\n\nitems-center justify-center\nbutton inline-flex ",
+    "bbox": {
+      "x": 578.3125,
+      "y": -1478,
+      "width": 125.9375,
+      "height": 38
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:01.072Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:01.077Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:03.012Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:03.015Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:04.576Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "Create Post",
+    "elementClasses": "no-underline hover:no-underline active:no-underline whitespace-normal h-auto min-h-[38px] xs:h-[38px] xs:leading-[38px] leading-3 xs:whitespace-nowrap min-w-4xl\nbutton-medium pl-[var(--rem10)] pr-[var(--rem14)]\nbutton-bordered\n\n\n\nitems-center justify-center\nbutton inline-flex ",
+    "bbox": {
+      "x": 578.3125,
+      "y": -1943,
+      "width": 125.9375,
+      "height": 38
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:04.623Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:04.669Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:05.993Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "close",
+    "elementClasses": "z-10 relative\nbutton-small px-[var(--rem6)]\nbutton-secondary\n\n\nicon\nitems-center justify-center\nbutton inline-flex ",
+    "bbox": {
+      "x": 608,
+      "y": 24,
+      "width": 32,
+      "height": 32
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:06.086Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:06.094Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:08.786Z",
+    "eventType": "click",
+    "elementType": "button",
+    "elementText": "Open menu",
+    "elementClasses": "m:hidden\nbutton-medium px-[var(--rem8)]\nbutton-plain\n\n\nicon\nitems-center justify-center\nbutton inline-flex ",
+    "bbox": {
+      "x": 16,
+      "y": 8,
+      "width": 40,
+      "height": 40
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:08.945Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:09.053Z",
+    "eventType": "input",
+    "elementType": "input",
+    "elementText": "test",
+    "elementClasses": "w-full leading-6 p-0 m-0 border-none bg-transparent flex items-center outline-none text-14 placeholder:text-neutral-content-weak",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "url": "https://www.reddit.com/r/webdev/"
+  },
+  {
+    "sessionId": "ef57008e-3c35-45cf-80d6-3fe4d5d538cc",
+    "timestamp": "2025-07-29T12:46:09.055Z",
+    "eventType": "scroll",
+    "elementType": "body",
+    "elementText": "",
+    "elementClasses": "",
+    "bbox": null,
+    "url": "https://www.reddit.com/r/webdev/"
+  }
+]
