@@ -1,4 +1,3 @@
-version: '3.9'
 services:
   postgres:
     image: postgres:15
@@ -6,9 +5,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_DB: ${POSTGRES_DB}
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-uxdb}
+      POSTGRES_USER: ${POSTGRES_USER:-uxuser}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-uxpass}
     volumes:
       - ./backend/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
       - ./backend/postgres/data:/var/lib/postgresql/data
@@ -17,6 +16,11 @@ services:
     build: ./backend/springboot/ux_beta
     ports:
       - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - APP_CORS_ALLOWED_ORIGINS=${FRONTEND_ORIGIN:-http://localhost:4200}
+      - APP_LLM_BASE_URL=${LLM_API_URL:-http://fastapi-llm:5000}
+      - APP_VISION_BASE_URL=${VISION_API_URL:-http://fastapi-vision:5001}
     depends_on:
       - fastapi-llm
       - fastapi-vision
@@ -27,18 +31,24 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - NVIDIA_VISIBLE_DEVICES=all
-    runtime: nvidia
+      - LLM_PROVIDER=${LLM_PROVIDER:-openai}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - MISTRAL_API_KEY=${MISTRAL_API_KEY}
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - OLLAMA_ENDPOINT=${OLLAMA_ENDPOINT:-http://ollama:11434}
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-llama3.1:8b}
 
   fastapi-vision:
     build: ./backend/fastapi_vision
     ports:
       - "5001:5001"
     environment:
-      - NVIDIA_VISIBLE_DEVICES=all
-    runtime: nvidia
+      - VISION_MODEL_PATH=/app/models
 
   frontend:
     build: ./frontend
     ports:
       - "4200:4200"
+    environment:
+      - API_BASE_URL=http://springboot-gateway:8080/api
