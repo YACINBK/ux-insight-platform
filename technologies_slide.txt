@@ -1,0 +1,23 @@
+TECHNOLOGIES & ROLES
+
+Frontend:
+• Angular - Interactive dashboard and file upload interface
+• TypeScript - Type-safe frontend development
+
+Backend:
+• FastAPI - LLM integration and analysis processing
+• Spring Boot - File management and data persistence
+• PostgreSQL - User data and analysis storage
+
+AI & Computer Vision:
+• YOLOv8 - UI element detection and screen classification
+• OCR - Text extraction from interface screenshots
+• DeepSeek/Mistral - UX analysis and insight generation
+
+Automation:
+• Puppeteer - User session simulation and data capture
+• ChromaDB - Vector storage for contextual analysis
+
+Infrastructure:
+• Docker - Containerized deployment
+• Ollama - Local LLM inference 

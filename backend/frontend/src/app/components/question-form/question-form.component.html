@@ -1,0 +1,67 @@
+<form [formGroup]="questionForm" (ngSubmit)="onSubmit()" class="question-form">
+  <!-- Title Field -->
+  <mat-form-field appearance="outline" class="full-width">
+    <mat-label>Question Title</mat-label>
+    <input matInput formControlName="title" placeholder="Enter your question title">
+    <mat-icon matSuffix>title</mat-icon>
+    <mat-error *ngIf="questionForm.get('title')?.invalid && questionForm.get('title')?.touched">
+      {{ getErrorMessage('title') }}
+    </mat-error>
+  </mat-form-field>
+
+  <!-- Unified Upload Section -->
+  <div class="upload-section">
+    <h3>Attachments & Image Analysis</h3>
+    
+    <!-- File Upload for both JSON and Images -->
+    <div class="file-upload-section">
+      <h4>Files (JSON Data & Images)</h4>
+      <app-file-upload (filesSelected)="onFilesSelected($event)"></app-file-upload>
+    </div>
+
+    <!-- Display Selected Files -->
+    <div class="selected-files" *ngIf="attachments.length > 0 || selectedImages.length > 0">
+      <h4>Selected Files:</h4>
+      <div class="file-list">
+        <!-- JSON Files -->
+        <div class="file-chip" *ngFor="let file of attachments; let i = index">
+          <mat-icon>description</mat-icon>
+          <span>{{ file.name }}</span>
+          <button type="button" (click)="removeAttachment(i)" class="remove-btn">
+            <mat-icon>close</mat-icon>
+          </button>
+        </div>
+        <!-- Image Files -->
+        <div class="file-chip" *ngFor="let image of selectedImages; let i = index">
+          <mat-icon>image</mat-icon>
+          <span>{{ image.name }}</span>
+          <button type="button" (click)="removeImage(i)" class="remove-btn">
+            <mat-icon>close</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <mat-progress-bar mode="indeterminate" *ngIf="isSubmitting" class="progress-bar"></mat-progress-bar>
+
+  <!-- Single Action Button -->
+  <div class="form-actions">
+    <button mat-raised-button
+            type="button"
+            (click)="resetForm()"
+            [disabled]="isSubmitting">
+      <mat-icon>refresh</mat-icon>
+      Reset
+    </button>
+
+    <button mat-raised-button
+            color="primary"
+            type="submit"
+            [disabled]="questionForm.invalid || isSubmitting">
+      <mat-icon>send</mat-icon>
+      {{ isSubmitting ? 'Processing...' : 'Send Analysis' }}
+    </button>
+  </div>
+</form>
