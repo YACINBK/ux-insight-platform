@@ -12,7 +12,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { FormsModule } from '@angular/forms';
 import { ChatConversationComponent } from '../chat-conversation/chat-conversation.component';
 import { QuestionFormComponent } from '../question-form/question-form.component';
-import { UxTrackingService, Question } from 'C:/Users/YACIN/Desktop/beta_ux_project/backend/frontend/src/app/services/ux-tracking-service';
+import { UxTrackingService, Question } from '../../services/ux-tracking-service';
 
 @Component({
   selector: 'app-dashboard',

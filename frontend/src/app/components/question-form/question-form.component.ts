@@ -8,7 +8,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 import { FileUploadComponent } from '../file-upload/file-upload.component';
-import { UxTrackingService } from 'C:/Users/YACIN/Desktop/beta_ux_project/backend/frontend/src/app/services/ux-tracking-service';
+import { UxTrackingService } from '../../services/ux-tracking-service';
 
 @Component({
   selector: 'app-question-form',
