@@ -5,46 +5,43 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.log
-*.sqlite3
-**/chroma_db/
-data/
-models/
 
 # Node
 node_modules/
 dist/
 build/
 
-# Env & IDE
+# Java / Maven
+target/
+
+# Environment & secrets
 .env
 .env.*
+!.env.example
+
+# IDE
 .vscode/
 .idea/
 *.iml
 
-# Media & archives
-media/videos/
-*.tar.gz
-
-# WebUI samples/checkpoints
-**/webui-main/sample/
-**/webui-main/downloads/
-packages/third_party/**/screenshots/
-packages/third_party/**/sample/
-packages/third_party/**/downloads/
-packages/third_party/**/notebooks/
-packages/third_party/webui-main/
-
-backend/triton-models/
-yolov8n.pt
-
-media/videos/
-*.mp4
-*.tar.gz
-
-chroma_db/
-backend/fastapi_llm/chroma_db/
+# Logs & local databases
+*.log
 *.sqlite3
 
-datasets/coco8/images/
+# Runtime data (seeded ChromaDB, uploaded files)
+data/
+**/chroma_db/
+uploads/
+
+# ML model checkpoints (downloaded separately, see backend/fastapi_vision/README.md)
+**/webui-main/downloads/
+*.pt
+*.torchscript
+
+# Automation tool outputs
+tools/automation/analysis_results.json
+tools/automation/screenshots/
+
+# Archives & media
+*.tar.gz
+*.mp4
