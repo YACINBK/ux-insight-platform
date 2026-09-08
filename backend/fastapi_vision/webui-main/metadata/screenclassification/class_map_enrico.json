@@ -1,0 +1,24 @@
+{
+  "idx2Label": {
+    "0": "Bare",
+    "1": "Dialer",
+    "2": "Camera",
+    "3": "Chat",
+    "4": "Editor",
+    "5": "Form",
+    "6": "Gallery",
+    "7": "List",
+    "8": "Login",
+    "9": "Maps",
+    "10": "MediaPlayer",
+    "11": "Menu",
+    "12": "Modal",
+    "13": "News",
+    "14": "Other",
+    "15": "Profile",
+    "16": "Search",
+    "17": "Settings",
+    "18": "Terms",
+    "19": "Tutorial"
+  }
+}
