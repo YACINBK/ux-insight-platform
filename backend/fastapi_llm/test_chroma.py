@@ -5,13 +5,17 @@ Test script to verify ChromaDB RAG functionality
 import chromadb
 from sentence_transformers import SentenceTransformer
 import json
+import os
+from pathlib import Path
+
+DATA_DIR = os.getenv("DATA_DIR", str(Path(__file__).parent / "data"))
 
 def test_chroma_rag():
     print("Testing ChromaDB RAG functionality...")
     
     try:
         # Initialize ChromaDB
-        client = chromadb.PersistentClient(path="./chroma_db")
+        client = chromadb.PersistentClient(path=os.path.join(DATA_DIR, "chroma_db"))
         collection = client.get_collection("ux_heuristics")
         embedder = SentenceTransformer('BAAI/bge-small-en-v1.5')
         

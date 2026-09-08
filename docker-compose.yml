@@ -39,13 +39,13 @@ services:
       - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
       - OLLAMA_ENDPOINT=${OLLAMA_ENDPOINT:-http://ollama:11434}
       - OLLAMA_MODEL=${OLLAMA_MODEL:-llama3.1:8b}
+    volumes:
+      - ./backend/fastapi_llm/data:/app/data
 
   fastapi-vision:
     build: ./backend/fastapi_vision
     ports:
       - "5001:5001"
-    environment:
-      - VISION_MODEL_PATH=/app/models
 
   frontend:
     build: ./frontend

@@ -40,8 +40,8 @@ def get_descriptive_screen_type(screen_type: str, confidence: float) -> str:
 
 # Initialize ChromaDB
 print("🔍 Initializing ChromaDB...")
-# Use DATA_DIR env (default to ./data) to avoid hardcoded personal paths
-data_dir = os.getenv("DATA_DIR", "data")
+# Use DATA_DIR env (default: <service dir>/data) to avoid hardcoded personal paths
+data_dir = os.getenv("DATA_DIR", str(Path(__file__).parent / "data"))
 chroma_path = os.path.join(data_dir, "chroma_db")
 Path(chroma_path).mkdir(parents=True, exist_ok=True)
 client = chromadb.PersistentClient(path=chroma_path)

@@ -12,12 +12,18 @@ Embedding model options:
     - For production, consider OpenAI or other API-based models (requires API key)
 """
 import json
+import os
 from pathlib import Path
 import chromadb
 from sentence_transformers import SentenceTransformer
 
 # --- CONFIGURATION ---
-JSON_PATH = Path("C:/Users/YACIN/Desktop/beta_ux_project/datasets/heuristics/ux_heuristics.json")
+# Heuristics dataset: repo-relative default, overridable via HEURISTICS_PATH
+DEFAULT_JSON_PATH = Path(__file__).resolve().parents[2] / "datasets" / "heuristics" / "ux_heuristics.json"
+JSON_PATH = Path(os.getenv("HEURISTICS_PATH", str(DEFAULT_JSON_PATH)))
+
+# ChromaDB location: same DATA_DIR convention as main.py
+DATA_DIR = os.getenv("DATA_DIR", str(Path(__file__).parent / "data"))
 CHROMA_COLLECTION = "ux_heuristics"
 EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"  # Change as needed
 
@@ -35,7 +41,7 @@ embedder = SentenceTransformer(EMBEDDING_MODEL)
 embeddings = embedder.encode(texts).tolist()
 
 # --- POPULATE CHROMA ---
-client = chromadb.PersistentClient(path="chroma_db")
+client = chromadb.PersistentClient(path=os.path.join(DATA_DIR, "chroma_db"))
 # Remove collection if it exists (for idempotency)
 try:
     client.delete_collection(CHROMA_COLLECTION)
@@ -50,4 +56,4 @@ collection.add(
     metadatas=metadatas
 )
 
-print(f"Inserted {len(texts)} heuristics into Chroma collection '{CHROMA_COLLECTION}'.") 
+print(f"Inserted {len(texts)} heuristics into Chroma collection '{CHROMA_COLLECTION}' at {os.path.join(DATA_DIR, 'chroma_db')}")

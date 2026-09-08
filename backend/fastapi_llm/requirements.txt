@@ -3,6 +3,6 @@ uvicorn
 chromadb
 sentence-transformers
 pydantic
-tf-keras
+requests
 torch
-transformers 
+transformers
