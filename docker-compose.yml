@@ -12,11 +12,13 @@ services:
       - postgres-data:/var/lib/postgresql/data
 
   springboot-gateway:
-    build: ./backend/springboot/ux_beta
+    build: ./backend/springboot
     ports:
       - "8080:8080"
     environment:
-      - SPRING_PROFILES_ACTIVE=docker
+      - DB_URL=jdbc:postgresql://postgres:5432/${POSTGRES_DB:-uxdb}
+      - DB_USERNAME=${POSTGRES_USER:-uxuser}
+      - DB_PASSWORD=${POSTGRES_PASSWORD:-uxpass}
       - APP_CORS_ALLOWED_ORIGINS=${FRONTEND_ORIGIN:-http://localhost:4200}
       - APP_LLM_BASE_URL=${LLM_API_URL:-http://fastapi-llm:5000}
       - APP_VISION_BASE_URL=${VISION_API_URL:-http://fastapi-vision:5001}
