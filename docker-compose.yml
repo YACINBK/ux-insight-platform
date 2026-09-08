@@ -51,8 +51,6 @@ services:
     build: ./frontend
     ports:
       - "4200:4200"
-    environment:
-      - API_BASE_URL=http://springboot-gateway:8080/api
 
 volumes:
   postgres-data:

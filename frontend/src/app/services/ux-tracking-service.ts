@@ -4,10 +4,7 @@ import { Observable, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 
 export interface Question {
-  id?: number;
   title: string;
-  description: string;
-  category: string;
   createdAt?: Date;
   attachments?: string[];
 }
@@ -22,7 +19,7 @@ export interface DashboardStats {
   providedIn: 'root'
 })
 export class UxTrackingService {
-  private apiUrl = (window as any)["API_BASE_URL"] || (import.meta as any).env?.NG_APP_API_BASE_URL || 'http://localhost:8080/api';
+  private apiUrl = (window as any)['API_BASE_URL'] || 'http://localhost:8080/api';
 
   constructor(private http: HttpClient) {}
 
@@ -39,30 +36,6 @@ export class UxTrackingService {
         totalAttachments: 0,
         recentQuestions: []
       }))
-    );
-  }
-
-  getQuestions(): Observable<Question[]> {
-    return this.http.get<Question[]>(`${this.apiUrl}/questions`).pipe(
-      catchError(this.handleError<Question[]>('getQuestions', []))
-    );
-  }
-
-  getQuestion(id: number): Observable<Question> {
-    return this.http.get<Question>(`${this.apiUrl}/questions/${id}`).pipe(
-      catchError(this.handleError<Question>('getQuestion'))
-    );
-  }
-
-  deleteQuestion(id: number): Observable<any> {
-    return this.http.delete(`${this.apiUrl}/questions/${id}`).pipe(
-      catchError(this.handleError<any>('deleteQuestion'))
-    );
-  }
-
-  askLLM(payload: any): Observable<any> {
-    return this.http.post(`${this.apiUrl}/llm/query`, payload).pipe(
-      catchError(this.handleError<any>('askLLM'))
     );
   }
 
