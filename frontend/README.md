@@ -1,59 +1,52 @@
-# Frontend
+# Frontend — UX Insight dashboard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1.
+Angular 20 + Angular Material single-page dashboard for the UX Insight
+Platform. It talks to the Spring Boot gateway (default
+`http://localhost:8080/api`) and renders:
 
-## Development server
+- **Stats cards** — total questions / attachments, plus a recent-questions panel
+- **Manual Mode** — question form with image + JSON attachments; images are
+  analyzed by the vision service before the whole submission goes to the LLM
+- **Premium Auto Mode** — URL input returning demo analysis scores (labeled as
+  demo in the UI)
+- **Chat panel** — the LLM's answers, with a loading spinner between turns
 
-To start a local development server, run:
+## Structure
 
-```bash
-ng serve
+```
+src/app/
+├── app.ts / app.config.ts        # root component + providers (no router: single page)
+├── services/ux-tracking-service  # the one HTTP service (gateway API)
+└── components/
+    ├── dashboard/                # layout, stats, mode toggle, auto-analysis
+    ├── question-form/            # manual-mode submission flow
+    ├── file-upload/              # drag & drop + buttons (images / JSON)
+    └── chat-conversation/        # answer bubbles + auto-scroll
+public/env.js                     # runtime config: window.API_BASE_URL
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Runtime configuration
 
-## Code scaffolding
+The API base URL is **not** baked into the bundle. `public/env.js` sets
+`window.API_BASE_URL` (default `http://localhost:8080/api`) and is loaded by
+`index.html` — edit it before building the Docker image to point at a
+different gateway. (`docker compose` does not template it; it is a static
+file served by nginx.)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Commands
 
 ```bash
-ng generate --help
+npm install
+npm start        # dev server at http://localhost:4200 (expects the gateway on :8080)
+npm run build    # production build → dist/
+npm test         # Karma/Jasmine (smoke spec)
 ```
 
-## Building
+Docker: built by the root `docker-compose.yml` (multi-stage: Node 20 build →
+nginx:alpine serving on port 4200, with an `/api/` reverse proxy to the
+gateway for relative-URL deployments).
 
-To build the project run:
+## Testing
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+One smoke spec (`app.spec.ts`) covers root-component creation and dashboard
+rendering. Broader component/service tests are a roadmap item.
